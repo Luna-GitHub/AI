@@ -341,6 +341,12 @@ a:active {
 /*============AILEARNING==============*/
 .top {
   background-color: #001737;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 7000;
+  box-shadow: 0 0 5px 2px ;
 }
 .logo{
   height: 40px !important;
@@ -369,17 +375,79 @@ a:active {
 .thanhdoc li {
   display: inline;
   font-size: large;
-  margin: 10px;
+  margin: 5px;
   height: 70px;
   color: white;
   font-weight: bold;
-  border-left: thin inset white;
+  
 }
-
+.thanhdoc li:nth-child(1) {
+  margin-Left: 120px;
+}
+.thanhdoc li:nth-child(2) {
+  border-left: thin solid white;
+}
+.thanhdoc li:nth-child(3) {
+  border-left: thin solid white;
+}
 .thanhdoc li a:hover {
   color: white !important;
 }
 .thanhdoc {
   position: absolute;
-  bottom: -50px !important;
+  bottom: -85px !important;
+}
+.tcenter{
+  width: 100%;
+}
+.bentrai {
+  float: left !important;
+  width: 660px;
+  border-radius: 5px;
+  margin: 125px 0 50px 100px;
+  box-shadow: 0 0 5px 2px wheat;
+}
+.hinhhat{
+  margin-top: 25px;
+  text-align: center;
+}
+.sach a:hover{
+  color: black;
+}
+.sach a{
+  font-weight: bold;
+  color: #001737;
+  margin: 20px 0 0 100px;
+}
+.sach {
+  margin-bottom: 30px;
+}
+.tt{
+  background-color: #f7fafe;
+  border-radius: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 500px;
+}
+.tt p{
+  padding: 50px 0 60px 20px;
+  font-weight: bold;
+  color: #325ea7;
+}
+.benphai{
+  float: right !important;
+  width: 300px;
+}
+.tren p:nth-child(1){
+  background-color: #1b1946;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 0 15px 20px;
+  font-weight: bold;
+}
+.tren p{
+  display: inline;
+}
+.tren {
+  margin-top: 125px;
 }
