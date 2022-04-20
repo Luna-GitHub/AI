@@ -438,16 +438,57 @@ a:active {
   float: right !important;
   width: 300px;
 }
-.tren p:nth-child(1){
-  background-color: #1b1946;
-  color: white;
-  border-radius: 10px;
-  padding: 15px 0 15px 20px;
-  font-weight: bold;
-}
 .tren p{
   display: inline;
 }
-.tren {
+.boc {
   margin-top: 125px;
+  background-color: #1b1946;
+  border-radius: 10px;
+  padding: 15px 0 15px 20px;
 }
+.tren p:nth-child(1) {
+  margin-top: 125px;
+  background-color: #1b1946;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 0 15px 0px;
+  font-weight: bold;
+}
+.tren p:nth-child(2){
+  color: white;
+  padding-left: 130px;
+}
+.duoih {
+  margin-top: 25px;
+  background-color: #1b1946;
+  border-radius: 10px;
+  padding: 15px 0 15px 20px;
+  color: white;
+}
+.duoih h{
+  font-weight: bold;
+}
+.duoih p{
+  padding-right: 10px;
+  font-weight: lighter;
+}
+.cuoi {
+  background-color: #001737;
+  margin-top: 100px;
+  text-align: center;
+}
+.cuoi2 p{
+  color: white;
+}
+.cuoi1 h1{
+  color: white;
+  font-size: x-large;
+}
+.cuoi1 {
+  float: left;
+}
+.cuoi2 {
+  float: left;
+}
+

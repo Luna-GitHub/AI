@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-sync-scripts */
 import Head from "next/head";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
@@ -51,15 +50,31 @@ const AIlearn = () => {
                         </div>
                     </div>
                     <div className="benphai col-sm-4">
+                      <div className="boc">
                         <div className="tren">
-                            <p>Bài học <p>0 bài</p></p>
-                            
+                            <p>Bài học </p> 
+                            <p>0 bài</p>
                         </div>
-                        
+                        </div>
+                        <div className="duoih">
+                            <h>Mục tiêu</h>
+                            <p>
+                            (LOAN)Computer Graphics (Kỹ thuật đồ hoạ máy tính) là một lĩnh vực của Công nghệ thông tin mà ở đó nghiên cứu, xây dựng và tập hợp các công cụ (mô hình lý thuyết và phần mềm) khác nhau để: kiến tạo, xây dựng, lưu trữ, xử lý Các mô hình (model) và hình ảnh (image) của đối tượng.
+                            </p>
+                        </div>
                     </div>
                 </div>
               </div>
-              
+              <div className="cuoi">
+                <div className="cuoi1"><h1>ML Course</h1></div>
+                <div className="cuoi2"><p>ML Course mang lại những kiến thức căn bản nhất.Học tập thật dễ dàng cùng ML Course</p></div>
+                <div className="cuoi3"><a href="http://www.facebook.com" target="blank" class="social-margin">
+                                    <div className="social-icon facebook">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </div>
+                                </a>
+                </div>
+              </div>
               <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
               <script nomodule src="https://unkg.com / ionicons @ 5.5.2 / dist / ionicons /ionicons.js "></script>
             </div>
