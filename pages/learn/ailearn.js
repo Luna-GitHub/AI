@@ -68,12 +68,16 @@ const AIlearn = () => {
               <div className="cuoi">
                 <div className="cuoi1"><h1>ML Course</h1></div>
                 <div className="cuoi2"><p>ML Course mang lại những kiến thức căn bản nhất.Học tập thật dễ dàng cùng ML Course</p></div>
-                <div className="cuoi3"><a href="http://www.facebook.com" target="blank" class="social-margin">
+                <div className="cuoi3"><a href="http://www.facebook.com" target="blank" className="social-margin">
                                     <div className="social-icon facebook">
                                         <ion-icon name="logo-facebook"></ion-icon>
                                     </div>
                                 </a>
                 </div>
+              </div>
+              <div className="cuoicung">
+                  <img className="logo" src="https://ailearning.edu.vn/content/img/logo/logo.png" width="100px"/>
+                  <p>Cung cấp bởi ML Course © 2021.</p>
               </div>
               <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
               <script nomodule src="https://unkg.com / ionicons @ 5.5.2 / dist / ionicons /ionicons.js "></script>

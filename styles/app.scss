@@ -476,7 +476,6 @@ a:active {
 .cuoi {
   background-color: #001737;
   margin-top: 100px;
-  text-align: center;
 }
 .cuoi2 p{
   color: white;
@@ -487,8 +486,24 @@ a:active {
 }
 .cuoi1 {
   float: left;
+  padding-top: 25px;
+  padding-left: 250px;
+  padding-right: 20px;
 }
 .cuoi2 {
   float: left;
+  padding-top: 25px;
+  padding-right: 20px;
 }
-
+.cuoi3 {
+  padding-top: 20px;
+}
+.cuoicung {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.cuoicung p{
+  color: white;
+  font-size: large;
+}
